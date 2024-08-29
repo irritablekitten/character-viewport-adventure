@@ -1,4 +1,4 @@
-import { HomeIcon } from "lucide-react";
+import { HomeIcon, GamepadIcon } from "lucide-react";
 import Index from "./pages/Index.jsx";
 
 /**
@@ -6,9 +6,9 @@ import Index from "./pages/Index.jsx";
  */
 export const navItems = [
   {
-    title: "Home",
+    title: "Game",
     to: "/",
-    icon: <HomeIcon className="h-4 w-4" />,
+    icon: <GamepadIcon className="h-4 w-4" />,
     page: <Index />,
   },
 ];
